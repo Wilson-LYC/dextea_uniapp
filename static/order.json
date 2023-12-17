@@ -1,0 +1,15 @@
+[
+    {
+        "id": "1",
+        "store": "广州GOGO新天地店",
+        "type": "堂食",
+        "state": "已完成",
+        "time": "2023-11-14 1:12",
+        "price": "38",
+        "num": "2",
+        "imgLIst": [
+            "https://img.js.design/assets/img/655391bebe0574e7eb36dee8.png#d8c602e6fba30a542ebd2dc5860d5195",
+            "https://img.js.design/assets/img/655391beeb009f7cc7d36734.png#52642bb1f84af69877557f8865e75106"
+        ]
+    }
+]

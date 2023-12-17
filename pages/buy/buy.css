@@ -1,0 +1,448 @@
+.window {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header-container {
+	padding-bottom: 20rpx;
+}
+
+.header {
+	height: 100%;
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 600;
+}
+
+.nav {
+	width: 100vw;
+	height: 150rpx;
+	position: fixed;
+	bottom: 0;
+}
+
+/* 商店信息 总高度100rpx*/
+.store {
+	height: 100rpx;
+	padding: 0 30rpx;
+}
+
+.s-name {
+	font-size: 32rpx;
+	font-weight: 600;
+	margin-bottom: 5rpx;
+}
+
+.s-distance {
+	font-size: 24rpx;
+	color: #999999;
+}
+
+/* 菜单 */
+.menu {
+	width: 100%;
+	height: calc(100% - 100rpx);
+	display: flex;
+}
+
+/* 左侧分类 */
+.class-container {
+	width: 190rpx;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+.class-item {
+	padding-left: 10rpx;
+	font-size: 28rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: left;
+}
+
+.class-item-sel {
+	padding-left: 10rpx;
+	font-size: 28rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: left;
+	background: #ffffff;
+}
+
+/* 右侧商品 */
+.commodity-container {
+	width: calc(100% - 190rpx);
+	height: 100%;
+}
+
+.commodity-scroll {
+	height: 100%;
+}
+
+.class-title {
+	padding: 0 20rpx;
+	font-size: 34rpx;
+	font-weight: 600;
+	margin-bottom: 15rpx;
+}
+
+.commodity {
+	/* background: skyblue; */
+	padding: 0 20rpx;
+	display: flex;
+	margin-bottom: 15rpx;
+	height: 210rpx;
+	overflow: hidden;
+}
+
+.c-img {
+	width: 190rpx;
+	height: 190rpx;
+}
+
+.c-text-container {
+	/* background:forestgreen; */
+	width: calc(100% - 200rpx);
+	height: 100%;
+	margin-left: 10rpx;
+}
+
+/* 商品名称 总高55rpx */
+.c-name {
+	/* background: red; */
+	height: 50rpx;
+	width: 100%;
+	font-weight: 560;
+	font-size: 30rpx;
+	line-height: 50rpx;
+	margin-bottom: 5rpx;
+}
+
+/* 商品信息 总高85rpx */
+.c-info {
+	/* background: mistyrose; */
+	height: 95rpx;
+	font-size: 23rpx;
+	color: #999999;
+	margin-bottom: 5rpx;
+	overflow: hidden;
+}
+
+/* 商品信息 总高50rpx */
+.c-price-line {
+	display: flex;
+	/* background: gold; */
+}
+
+.c-price {
+	width: calc(100% - 120rpx);
+	font-size: 30rpx;
+	font-weight: 600;
+}
+
+.c-buy-container {
+	width: 120rpx;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.c-buy {
+	font-size: 23rpx;
+	background: #b28561;
+	color: #ffffff;
+	height: 40rpx;
+	line-height: 40rpx;
+	padding: 0 13rpx;
+	border-radius: 1000rpx;
+}
+
+/* 商品详情popup 缩写cd*/
+/* 关闭按钮 */
+.iconclose {
+	position: fixed;
+	right: 20rpx;
+	top: 20rpx;
+	pointer-events: auto;
+	z-index: 999;
+}
+
+.commdetail-container {
+	width: 100vw;
+	height: 80vh;
+	border-radius: 10px 10px 0 0;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+.cd-main {
+	width: 100%;
+	height: calc(100% - 300rpx);
+	text-align: center;
+}
+
+.cd-img {
+	height: 500rpx;
+}
+
+.cd-name {
+	padding: 0 10px;
+	text-align: left;
+	font-size: 40rpx;
+	font-weight: 600;
+}
+
+.cd-info {
+	margin-top: 10px;
+	padding: 0 10px;
+	font-size: 30rpx;
+	text-align: left;
+	color: #999999;
+}
+
+/* 客制化项目 */
+.cd-custom {
+	padding: 0 10px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+/* 客制化项目标题 */
+.cdc-title {
+	font-size: 28rpx;
+	color: #959595;
+}
+
+.cdc-item-container {
+	width: 100%;
+	margin-top: 20rpx;
+	margin-bottom: 5rpx;
+}
+
+.cdc-item {
+	line-height: 50rpx;
+	display: inline-block;
+	font-size: 25rpx;
+	padding: 5rpx 10rpx;
+	background: #f5f5f5;
+	border-radius: 5px;
+	margin-right: 15px;
+	margin-bottom: 15rpx;
+}
+
+.cdc-item-sel {
+	line-height: 50rpx;
+	display: inline-block;
+	font-size: 25rpx;
+	padding: 5rpx 10rpx;
+	border-radius: 5px;
+	margin-right: 15px;
+	margin-bottom: 15rpx;
+	background: #b28561;
+	color: #ffffff;
+}
+
+/* 产品详情弹窗页脚 */
+.cd-foo {
+	width: calc(100vw - 40rpx);
+	height: 300rpx;
+	-moz-box-shadow: 2px -1px 10px #B0B0B0;
+	-webkit-box-shadow: 2px -1px 10px #B0B0B0;
+	box-shadow: 2px -1px 10px #B0B0B0;
+	padding: 20rpx;
+}
+
+.cd-price-container {
+	display: flex;
+}
+
+.cd-price {
+	font-size: 38rpx;
+	font-weight: 600;
+}
+
+.cd-cus {
+	font-size: 22rpx;
+	color: #959595;
+}
+
+.cd-btcontainer {
+	margin-top: 55rpx;
+	display: flex;
+}
+
+.cd-bt {
+	display: inline-block;
+	width: 60%;
+	color: #4d4d4d;
+	padding: 13rpx 43rpx;
+	border-radius: 1000rpx;
+	border: 5rpx solid #b28561;
+}
+
+
+/* 购物车栏 */
+.cart-bar {
+	position: fixed;
+	bottom: 180rpx;
+	width: 100vw;
+	height: 100rpx;
+	padding: 0 20rpx;
+}
+
+.cr-background {
+	height: 100%;
+	width: calc(100% - 40rpx);
+	background: #323232;
+	border-radius: 1000rpx;
+	overflow: hidden;
+	display: flex;
+}
+
+.cr-bag {
+	/* 总宽度130 */
+	padding-top: 24rpx;
+	padding-right: 30rpx;
+	width: 100rpx;
+	text-align: right;
+}
+
+.cr-price {
+	padding-left: 20rpx;
+	padding-top: 25rpx;
+	color: #ffffff;
+	font-size: 38rpx;
+	width: calc(100% - 20rpx - 170rpx - 130rpx);
+}
+
+.cr-submit {
+	color: #ffffff;
+	font-size: 34rpx;
+	font-weight: 600;
+	position: relative;
+	top: 30rpx;
+	left: 50rpx;
+}
+
+/* 购物车弹窗 */
+.crd-containr {
+	width: calc(100vw - 60rpx);
+	height: 70vh;
+	background: #f8f8f8;
+	border-radius: 5px;
+	padding: 30rpx;
+}
+
+.crd-header {
+	height: 60rpx;
+}
+
+.crd-htitle {
+	font-size: 36rpx;
+	font-weight: 600;
+}
+
+.crd-main {
+	margin-top: 20rpx;
+	height: calc(100% - 60rpx);
+	background: #ffffff;
+	border-radius: 5px;
+}
+
+.crd-store {
+	height: 80rpx;
+	line-height: 80rpx;
+	padding: 0 20rpx;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.crd-comm-container {
+	background: #ffffff;
+}
+
+.crd-comm {
+	padding: 10rpx;
+	height: 220rpx;
+	overflow: hidden;
+}
+
+.crd-img {
+	width: 100%;
+}
+
+.crc-name {
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 34rpx;
+	font-weight: 600;
+	margin-bottom: 10rpx;
+}
+
+.crc-custom {
+	font-size: 24rpx;
+	color: #959595;
+	height: 90rpx;
+	margin-bottom: 10rpx;
+}
+
+.crd-price {
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 34rpx;
+	font-weight: 600;
+}
+
+.crd-del {
+	height: 50rpx;
+	line-height: 50rpx;
+	color: red;
+}
+
+.crd-empty {
+	height: 500rpx;
+	line-height: 500rpx;
+	font-size: 35rpx;
+	text-align: center;
+	color: #959595;
+	background: #ffffff;
+}
+
+.crd-foo {
+	padding: 20rpx;
+	background: #ffffff;
+	border-top: 1px solid #f5f5f5;
+	display: flex;
+}
+
+.crd-totalPrice {
+	display: inline-flex;
+	padding: 0 20rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 36rpx;
+	font-weight: 600;
+}
+
+.crd-submit {
+	color: #ffffff;
+	background: #b28561;
+}
+
+.is-hover {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: #99643E;
+	border-color: #99643E;
+}
+
+.storeoff {
+	background: #00000088;
+	color: #ffffff;
+	position: fixed;
+	bottom: 150rpx;
+	width: 100vw;
+	height: 60rpx;
+	text-align: center;
+	line-height: 60rpx;
+}

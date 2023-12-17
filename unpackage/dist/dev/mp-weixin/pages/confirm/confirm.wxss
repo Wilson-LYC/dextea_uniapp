@@ -1,0 +1,154 @@
+.window.data-v-eec36e84 {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header-container.data-v-eec36e84 {
+	padding-bottom: 20rpx;
+}
+.header.data-v-eec36e84 {
+	height: 100%;
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 600;
+}
+.main.data-v-eec36e84 {
+	height: 100%;
+	background: #f0f0f0;
+}
+.nav.data-v-eec36e84 {
+	width: 100vw;
+	height: 180rpx;
+	position: fixed;
+	bottom: 0;
+}
+.iconback.data-v-eec36e84 {
+	margin-top: 1rpx;
+	position: absolute;
+	left: 20rpx;
+	pointer-events: auto;
+}
+.store-container.data-v-eec36e84 {
+	padding: 0 20rpx;
+	padding-top: 20rpx;
+}
+.store-background.data-v-eec36e84 {
+	background: #ffffff;
+	padding: 20rpx;
+	border-radius: 5px;
+}
+.s-name.data-v-eec36e84 {
+	font-size: 34rpx;
+	font-weight: 550;
+	margin-bottom: 10rpx;
+}
+.s-schedule.data-v-eec36e84 {
+	font-size: 26rpx;
+	color: #b9b9b9;
+}
+.commodity-container.data-v-eec36e84 {
+	padding: 0 20rpx;
+	margin-top: 20rpx;
+}
+.comm-background.data-v-eec36e84 {
+	padding: 20rpx;
+	border-radius: 5px;
+	background: #ffffff;
+}
+.buytips.data-v-eec36e84 {
+	font-size: 26rpx;
+	color: #555555;
+	/* margin-bottom: 25rpx; */
+}
+.comm-item.data-v-eec36e84 {
+	display: flex;
+	margin-top: 25rpx;
+	height: 160rpx;
+}
+
+/* 左侧 */
+.comm-img.data-v-eec36e84 {
+	width: 160rpx;
+	height: 160rp;
+	/* background: skyblue; */
+}
+.cimg.data-v-eec36e84 {
+	width: 100%;
+	height: 100%;
+}
+
+/* 右侧 */
+.comm-price.data-v-eec36e84 {
+	width: 150rpx;
+	/* background: gold; */
+	text-align: right;
+}
+.cprice.data-v-eec36e84 {
+	margin-top: 50rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+}
+.cnum.data-v-eec36e84 {
+	font-size: 28rpx;
+	color: #555555;
+}
+
+/* 中间 */
+.comm-text.data-v-eec36e84 {
+	width: calc(100% - 330rpx);
+	/* background: forestgreen; */
+	padding: 0 10rpx;
+}
+.cname.data-v-eec36e84 {
+	height: 40rpx;
+	line-height: 40rpx;
+	font-size: 30rpx;
+	font-weight: 600;
+	/* background: skyblue; */
+}
+.ccustom.data-v-eec36e84{
+	/* background: grey; */
+	margin-top: 10rpx;
+	height: 110rpx;
+	font-size: 24rpx;
+	color: #a8a8a8;
+	overflow: hidden;
+}
+.order-info.data-v-eec36e84{
+	margin-top: 25rpx;
+	border-top: 1px solid #d9d9d9;
+	padding-top: 10rpx;
+	text-align: right;
+}
+.oprice.data-v-eec36e84{
+	font-size: 38rpx;
+	font-weight: 600;
+}
+.onum.data-v-eec36e84{
+	font-size: 26rpx;
+	color: #555555;
+}
+.buybt-container.data-v-eec36e84{
+	padding: 20rpx 40rpx;
+}
+.buybt.data-v-eec36e84{
+	color: #ffffff;
+	background-color: #B8701B;
+	border-color: #B8701B
+}
+.is-hover.data-v-eec36e84 {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: #99643E;
+	border-color: #99643E;
+}
+.customer-container.data-v-eec36e84 {
+	padding: 0 20rpx;
+	margin-top: 20rpx;
+}
+.cus-background.data-v-eec36e84 {
+	padding: 20rpx;
+	border-radius: 5px;
+	background: #ffffff;
+}

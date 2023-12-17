@@ -1,0 +1,29 @@
+.window.data-v-da71ba54 {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header-container.data-v-da71ba54 {
+	padding-bottom: 20rpx;
+}
+.header.data-v-da71ba54 {
+	height: 100%;
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 600;
+}
+.main.data-v-da71ba54 {
+	height: 100%;
+	background: #ffffff;
+}
+.iconback.data-v-da71ba54 {
+	margin-top: 1rpx;
+	position: absolute;
+	left: 20rpx;
+	pointer-events: auto;
+}
+.list.data-v-da71ba54{
+	background: #ffffff;
+}

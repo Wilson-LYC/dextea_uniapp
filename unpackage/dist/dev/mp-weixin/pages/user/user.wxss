@@ -1,0 +1,109 @@
+@font-face {
+	font-family: "得闲茶友";
+	font-weight: 400;
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/EbPZU3yL9lya.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/3pizeCLSpq5x.woff") format("woff");
+	font-display: swap;
+}
+@font-face {
+	font-family: "numberfont";
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/hfmSDgPJBJjT.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/5rERIdf6DpQF.woff") format("woff");
+	font-display: swap;
+}
+@font-face {
+	font-family: "积分余额优惠券";
+	font-weight: 400;
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/4OCEuKad7jNV.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/eJILxEVPTqhu.woff") format("woff");
+	font-display: swap;
+}
+@font-face {
+	font-family: "我的服务";
+	font-weight: 700;
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/iNmKsczwWwlv.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/k4ZB83NuqF9i.woff") format("woff");
+	font-display: swap;
+}
+.window.data-v-0f7520f0 {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.main.data-v-0f7520f0 {
+	height: 100%;
+	background: #f0efeb;
+}
+.nav.data-v-0f7520f0 {
+	width: 100vw;
+	height: 150rpx;
+	position: fixed;
+	bottom: 0;
+}
+.bgimg.data-v-0f7520f0 {
+	width: 100vw;
+	height: 600rpx;
+}
+.container.data-v-0f7520f0 {
+	position: relative;
+	top: -400rpx;
+	padding: 0 40rpx;
+	text-align: center;
+}
+.uname.data-v-0f7520f0 {
+	margin-top: 8rpx;
+	font-size: 50rpx;
+	color: #272e3b;
+	font-weight: 600;
+	text-align: left;
+}
+.ulabel.data-v-0f7520f0 {
+	width: 120rpx;
+	text-align: center;
+	font-size: 26rpx;
+	font-family: "得闲茶友";
+	padding: 5rpx 10rpx;
+	background: #b8701b;
+	color: #ffffff;
+	border-radius: 1000rpx;
+}
+.integral.data-v-0f7520f0 {
+	margin: auto;
+	display: inline-flex;
+	margin-top: 60rpx;
+	text-align: center;
+}
+.iitem.data-v-0f7520f0 {
+	width: 220rpx;
+	text-align: center;
+}
+.inum.data-v-0f7520f0 {
+	font-size: 38rpx;
+	font-weight: 800;
+	font-family: "numberfont";
+}
+.itext.data-v-0f7520f0 {
+	margin-top: 5rpx;
+	font-size: 32rpx;
+	font-family: "积分余额优惠券";
+}
+.option.data-v-0f7520f0 {
+	margin-top: 50rpx;
+	border-radius: 5px;
+	background: #ffffff;
+	padding: 20rpx;
+}
+.optitle.data-v-0f7520f0 {
+	text-align: left;
+	font-size: 34rpx;
+	margin-bottom: 20rpx;
+	font-family: "我的服务";
+}
+.opitem.data-v-0f7520f0 {
+	width: 25%;
+}
+.optext.data-v-0f7520f0 {
+	font-size: 24rpx;
+}

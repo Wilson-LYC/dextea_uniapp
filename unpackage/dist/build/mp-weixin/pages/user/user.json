@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "bottom-nav": "../../components/BottomNav",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
+}

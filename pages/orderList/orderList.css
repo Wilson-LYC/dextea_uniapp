@@ -1,0 +1,125 @@
+.window {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header-container {
+	padding-bottom: 20rpx;
+}
+
+.header {
+	height: 100%;
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 600;
+}
+
+.main {
+	height: 100%;
+	background: #f0f0f0;
+}
+
+.nav {
+	width: 100vw;
+	height: 150rpx;
+	position: fixed;
+	bottom: 0;
+}
+
+.container {
+	padding: 20rpx;
+}
+
+/* 订单相关 */
+.order {
+	padding: 10px;
+	border-radius: 8px;
+	background: #ffffff;
+	overflow: hidden;
+	margin-bottom: 20rpx;
+}
+
+.o-header {
+	display: flex;
+	margin-bottom: 5rpx;
+}
+
+.o-h-text {
+	font-size: 30rpx;
+	font-weight: 520;
+}
+
+.ordertime {
+	font-size: 28rpx;
+	color: #838383;
+	margin-bottom: 10rpx;
+}
+
+.o-info {
+	display: flex;
+	margin-bottom: 10rpx;
+}
+
+.cimg-container {
+	width: calc(100% - 150rpx);
+}
+
+.price-container {
+	width: 150rpx;
+	text-align: right;
+}
+
+.price {
+	font-size: 32rpx;
+	font-weight: 600;
+}
+
+.num {
+	font-size: 28rpx;
+	color: #838383;
+}
+
+.cimg-scroll {
+	white-space: nowrap;
+	width: 100%;
+}
+
+.commimg {
+	display: inline-flex;
+	overflow: hidden;
+}
+
+.c-img {
+	height: 60px;
+	width: 60px;
+	margin-right: 5rpx;
+}
+
+
+.btn {
+	margin-top: 20rpx;
+	width: 100%;
+	text-align: right;
+}
+
+.againbt {
+	color: #ffffff;
+	background-color: #B8701B;
+	border-color: #B8701B
+}
+
+.is-hover {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: #99643E;
+	border-color: #99643E;
+}
+.code-container{
+	background: #eeeeee;
+	border-radius: 5px;
+	line-height: 80rpx;
+	padding: 0 10rpx;
+	font-weight: 600;
+}

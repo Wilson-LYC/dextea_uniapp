@@ -1,0 +1,86 @@
+.window.data-v-aa01ade3 {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header-container.data-v-aa01ade3 {
+	padding-bottom: 20rpx;
+}
+.header.data-v-aa01ade3 {
+	height: 100%;
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 600;
+}
+.main.data-v-aa01ade3 {
+	height: 100%;
+	background: #f0f0f0;
+}
+.nav.data-v-aa01ade3 {
+	width: 100vw;
+	height: 180rpx;
+	position: fixed;
+	bottom: 0;
+}
+.iconback.data-v-aa01ade3 {
+	margin-top: 1rpx;
+	position: absolute;
+	left: 20rpx;
+	pointer-events: auto;
+}
+
+/* 城市 总高度80rpx */
+.city-container.data-v-aa01ade3 {
+	height: 79rpx;
+	border-top: 1rpx solid #eaeaea;
+	background: #ffffff;
+	padding: 0 20rpx;
+}
+.ccity.data-v-aa01ade3 {
+	height: 79rpx;
+	line-height: 79rpx;
+	font-size: 34rpx;
+	font-weight: 550;
+}
+
+/* 商店 */
+.container.data-v-aa01ade3 {
+	margin-top: 20rpx;
+	padding: 0 20rpx;
+}
+.background.data-v-aa01ade3 {
+	background: #ffffff;
+	padding: 40rpx;
+	border-radius: 5px;
+	display: flex;
+	height: 95rpx;
+}
+.sname.data-v-aa01ade3 {
+	font-size: 32rpx;
+	font-weight: 600;
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.saddress.data-v-aa01ade3 {
+	margin-top: 10rpx;
+	font-size: 25rpx;
+	color: #a5a5a5;
+	height: 40rpx;
+	line-height: 40rpx;
+	overflow: hidden;
+}
+.ssel.data-v-aa01ade3 {
+	/* background: skyblue; */
+	width: 140rpx;
+	height: 95rpx;
+	/* line-height: 95rpx; */
+	text-align: center;
+	padding-left: 20rpx;
+	border-left: 1rpx solid #ebebeb;
+}
+.sdistance.data-v-aa01ade3 {
+	font-size: 25rpx;
+	color: #a5a5a5;
+}

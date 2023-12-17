@@ -1,0 +1,127 @@
+@font-face {
+	font-family: "得闲茶友";
+	font-weight: 400;
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/EbPZU3yL9lya.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/3pizeCLSpq5x.woff") format("woff");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "numberfont";
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/hfmSDgPJBJjT.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/5rERIdf6DpQF.woff") format("woff");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "积分余额优惠券";
+	font-weight: 400;
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/4OCEuKad7jNV.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/eJILxEVPTqhu.woff") format("woff");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "我的服务";
+	font-weight: 700;
+	src: url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/iNmKsczwWwlv.woff2") format("woff2"),
+		url("//at.alicdn.com/wf/webfont/UdIaErw64wE0/k4ZB83NuqF9i.woff") format("woff");
+	font-display: swap;
+}
+
+.window {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.main {
+	height: 100%;
+	background: #f0efeb;
+}
+
+.nav {
+	width: 100vw;
+	height: 150rpx;
+	position: fixed;
+	bottom: 0;
+}
+
+.bgimg {
+	width: 100vw;
+	height: 600rpx;
+}
+
+.container {
+	position: relative;
+	top: -400rpx;
+	padding: 0 40rpx;
+	text-align: center;
+}
+
+.uname {
+	margin-top: 8rpx;
+	font-size: 50rpx;
+	color: #272e3b;
+	font-weight: 600;
+	text-align: left;
+}
+
+.ulabel {
+	width: 120rpx;
+	text-align: center;
+	font-size: 26rpx;
+	font-family: "得闲茶友";
+	padding: 5rpx 10rpx;
+	background: #b8701b;
+	color: #ffffff;
+	border-radius: 1000rpx;
+}
+
+.integral {
+	margin: auto;
+	display: inline-flex;
+	margin-top: 60rpx;
+	text-align: center;
+}
+
+.iitem {
+	width: 220rpx;
+	text-align: center;
+}
+
+.inum {
+	font-size: 38rpx;
+	font-weight: 800;
+	font-family: "numberfont";
+}
+
+.itext {
+	margin-top: 5rpx;
+	font-size: 32rpx;
+	font-family: "积分余额优惠券";
+}
+
+.option {
+	margin-top: 50rpx;
+	border-radius: 5px;
+	background: #ffffff;
+	padding: 20rpx;
+}
+
+.optitle {
+	text-align: left;
+	font-size: 34rpx;
+	margin-bottom: 20rpx;
+	font-family: "我的服务";
+}
+
+.opitem {
+	width: 25%;
+}
+
+.optext {
+	font-size: 24rpx;
+}

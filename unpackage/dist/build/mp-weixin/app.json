@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/buy/buy",
+    "pages/orderList/orderList",
+    "pages/confirm/confirm",
+    "pages/payres/payres",
+    "pages/orderDetail/orderDetail",
+    "pages/storeList/storeList",
+    "pages/openArea/openArea",
+    "pages/setUser/setUser"
+  ],
+  "usingComponents": {
+    "t-image": "/wxcomponents/tdesign-miniprogram/image/image",
+    "t-row": "/wxcomponents/tdesign-miniprogram/row/row",
+    "t-col": "/wxcomponents/tdesign-miniprogram/col/col",
+    "t-swiper": "/wxcomponents/tdesign-miniprogram/swiper/swiper",
+    "t-swiper-nav": "/wxcomponents/tdesign-miniprogram/swiper-nav/swiper-nav",
+    "t-sticky": "/wxcomponents/tdesign-miniprogram/sticky/sticky",
+    "t-button": "/wxcomponents/tdesign-miniprogram/button/button",
+    "t-radio": "/wxcomponents/tdesign-miniprogram/radio/radio",
+    "t-radio-group": "/wxcomponents/tdesign-miniprogram/radio-group/radio-group",
+    "t-stepper": "/wxcomponents/tdesign-miniprogram/stepper/stepper",
+    "t-input": "/wxcomponents/tdesign-miniprogram/input/input"
+  },
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "点单"
+      },
+      {
+        "pagePath": "pages/orderList/orderList",
+        "text": "订单"
+      }
+    ]
+  }
+}

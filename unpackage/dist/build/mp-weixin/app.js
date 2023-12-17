@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const o=require("./common/vendor.js");Math;const t={onLaunch:function(){},onShow:function(){},onHide:function(){},globalData:{host:"https://dexapi.ycwisdom.cn"}};function n(){return{app:o.createSSRApp(t)}}n().app.mount("#app"),exports.createApp=n;

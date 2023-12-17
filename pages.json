@@ -1,0 +1,86 @@
+{
+    "pages" : [
+        {
+            "path" : "pages/index/index"
+        },
+        {
+            "path" : "pages/user/user"
+        },
+        {
+            "path" : "pages/buy/buy",
+            "style" : {
+            }
+        },
+        {
+            "path" : "pages/orderList/orderList",
+            "style" : {
+            }
+        },
+        {
+            "path" : "pages/confirm/confirm",
+            "style" : {}
+        },
+        {
+            "path" : "pages/payres/payres",
+            "style" : {}
+        },
+        {
+            "path" : "pages/orderDetail/orderDetail",
+            "style" : {}
+        },
+        {
+            "path" : "pages/storeList/storeList",
+            "style" : {}
+        },
+        {
+            "path" : "pages/openArea/openArea",
+            "style" : {}
+        },
+        {
+            "path" : "pages/setUser/setUser",
+            "style" : {}
+        }
+    ],
+    "tabBar" : {
+        "custom" : true,
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/user/user",
+                "text" : "我的"
+            },
+            {
+                "pagePath" : "pages/buy/buy",
+                "text" : "点单"
+            },
+            {
+                "pagePath" : "pages/orderList/orderList",
+                "text" : "订单"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationStyle" : "custom",
+        "navigationBarTextStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "app-plus" : {
+            "background" : "#ffffff"
+        },
+        "usingComponents" : {
+            "t-image" : "/wxcomponents/tdesign-miniprogram/image/image",
+            "t-row" : "/wxcomponents/tdesign-miniprogram/row/row",
+            "t-col" : "/wxcomponents/tdesign-miniprogram/col/col",
+            "t-swiper" : "/wxcomponents/tdesign-miniprogram/swiper/swiper",
+            "t-swiper-nav" : "/wxcomponents/tdesign-miniprogram/swiper-nav/swiper-nav",
+            "t-sticky" : "/wxcomponents/tdesign-miniprogram/sticky/sticky",
+            "t-button" : "/wxcomponents/tdesign-miniprogram/button/button",
+            "t-radio" : "/wxcomponents/tdesign-miniprogram/radio/radio",
+            "t-radio-group" : "/wxcomponents/tdesign-miniprogram/radio-group/radio-group",
+            "t-stepper" : "/wxcomponents/tdesign-miniprogram/stepper/stepper",
+            "t-input" : "/wxcomponents/tdesign-miniprogram/input/input"
+        }
+    }
+}

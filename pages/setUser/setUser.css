@@ -1,0 +1,172 @@
+.window {
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header-container {
+	padding-bottom: 20rpx;
+}
+
+.header {
+	height: 100%;
+	text-align: center;
+	font-size: 35rpx;
+	font-weight: 600;
+}
+
+.main {
+	height: 100%;
+	background: #f0f0f0;
+}
+
+.nav {
+	width: 100vw;
+	height: 180rpx;
+	position: fixed;
+	bottom: 0;
+}
+
+.iconback {
+	margin-top: 1rpx;
+	position: absolute;
+	left: 20rpx;
+	pointer-events: auto;
+}
+
+.store-container {
+	padding: 0 20rpx;
+	padding-top: 20rpx;
+}
+
+.store-background {
+	background: #ffffff;
+	padding: 20rpx;
+	border-radius: 5px;
+}
+
+.s-name {
+	font-size: 34rpx;
+	font-weight: 550;
+	margin-bottom: 10rpx;
+}
+
+.s-schedule {
+	font-size: 26rpx;
+	color: #b9b9b9;
+}
+
+.commodity-container {
+	padding: 0 20rpx;
+	margin-top: 20rpx;
+}
+
+.comm-background {
+	padding: 20rpx;
+	border-radius: 5px;
+	background: #ffffff;
+}
+
+.buytips {
+	font-size: 26rpx;
+	color: #555555;
+	/* margin-bottom: 25rpx; */
+}
+
+.comm-item {
+	display: flex;
+	margin-top: 25rpx;
+	height: 160rpx;
+}
+
+/* 左侧 */
+.comm-img {
+	width: 160rpx;
+	height: 160rp;
+	/* background: skyblue; */
+}
+
+.cimg {
+	width: 100%;
+	height: 100%;
+}
+
+/* 右侧 */
+.comm-price {
+	width: 150rpx;
+	/* background: gold; */
+	text-align: right;
+}
+
+.cprice {
+	margin-top: 50rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+}
+
+.cnum {
+	font-size: 28rpx;
+	color: #555555;
+}
+
+/* 中间 */
+.comm-text {
+	width: calc(100% - 330rpx);
+	/* background: forestgreen; */
+	padding: 0 10rpx;
+}
+
+.cname {
+	height: 40rpx;
+	line-height: 40rpx;
+	font-size: 30rpx;
+	font-weight: 600;
+	/* background: skyblue; */
+}
+.ccustom{
+	/* background: grey; */
+	margin-top: 10rpx;
+	height: 110rpx;
+	font-size: 24rpx;
+	color: #a8a8a8;
+	overflow: hidden;
+}
+.order-info{
+	margin-top: 25rpx;
+	border-top: 1px solid #d9d9d9;
+	padding-top: 10rpx;
+	text-align: right;
+}
+.oprice{
+	font-size: 38rpx;
+	font-weight: 600;
+}
+.onum{
+	font-size: 26rpx;
+	color: #555555;
+}
+.buybt-container{
+	padding: 20rpx 40rpx;
+}
+.buybt{
+	color: #ffffff;
+	background-color: #B8701B;
+	border-color: #B8701B
+}
+.is-hover {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: #99643E;
+	border-color: #99643E;
+}
+.customer-container {
+	padding: 0 20rpx;
+	margin-top: 20rpx;
+}
+
+.cus-background {
+	padding: 20rpx;
+	border-radius: 5px;
+	background: #ffffff;
+}

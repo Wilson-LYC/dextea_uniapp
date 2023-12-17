@@ -1,0 +1,19 @@
+
+.container.data-v-53d1cde7 {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		background: #e5e5e5;
+		display: flex;
+}
+.item.data-v-53d1cde7 {
+		margin: 0;
+		padding: 0;
+		width: 25%;
+		text-align: center;
+		margin-top: 20rpx;
+}
+.text.data-v-53d1cde7 {
+		font-size: 24rpx;
+		margin-top: 5rpx;
+}
