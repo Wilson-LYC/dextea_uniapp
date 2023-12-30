@@ -4,7 +4,7 @@
 		onShow: function() {},
 		onHide: function() {},
 		globalData:{
-			host:"https://dexapi.ycwisdom.cn"
+			host:"???"
 		}
 	}
 </script>
